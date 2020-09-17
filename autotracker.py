@@ -10,7 +10,7 @@ result = re.sub(r'\nbt-tracker=.*',"\nbt-tracker="+req.text,f.read())
 print(result)
 f.close()
 
-print("Proceed to replace?")
+print("Proceed to replace? Use y/yes to confirm.")
 i = input()
 if i=="y" or i=="yes":
     pass
